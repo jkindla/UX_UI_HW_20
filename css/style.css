@@ -1,0 +1,245 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(-45deg, #CC95C0, #f7b9ff, #a5d9ec, #7AA1D2);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+ 
+
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-clip: cover;
+    z-index: 10;
+    
+  }
+  
+  
+  .navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+
+          
+  .jumbotron {
+    background-image: url(/images/groupes.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: transparent;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    opacity: 0.8;
+    text-align: center;
+    margin: 30px;
+    background-color: black;
+    border: .5px solid black;
+    color:white;
+    margin: 5%;
+  }
+
+
+  .content {
+    padding: 50px;
+  
+  }
+  
+  
+  .sectionHeading {
+  
+    text-align: center;
+  
+  
+  }
+  
+  
+  .showsNear {
+  
+    padding: 0px 30px 30px 30px;
+  
+  
+  }
+  
+  
+  
+  .cardContain {
+  text-align: center;
+  
+  
+  }
+  
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .sideAccent {
+    background: black;
+    width: 15px;
+  }
+  
+  .imageContainer {
+    padding: 50px;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+  }
+  
+
+
+  .demo img{
+    width: 100px;     
+    padding: 10px;
+    z-index: 3;
+}
+.demo img:hover {
+    border: 5px solid #f4f4f4;
+   transform: scale(5);
+     -webkit-transition-duration: 1s;
+   -moz-transition-duration: 1s;
+   -o-transition-duration: 1s;
+   transition-duration: 1s;
+    z-index: 3;
+}
+
+
+
+
+.container {
+  padding: 10px 15px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+.carousel-inner {
+
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  
+
+
+}
+.skyblue {
+	background-image: url(/images/I1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.deepskyblue {
+	background-image: url(/images/I2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.darkerskyblue {
+	background-image: url(/images/I3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-item {
+	min-height: 350px; 
+	height: 100%;
+	width:100%; 
+}
+.carousel-caption p,
+.carousel .icon-container,
+.carousel-caption button {
+	background-color: black;
+}
+.carousel-caption p {
+	padding: .5em;
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+.carousel-caption button {
+	border-color: #00bfff;
+	margin-top: 1em; 
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+	animation-delay: 2s;
+}
+.carousel-caption button {
+	animation-delay: 3s;
+}
+
+h1 {
+  text-align: center;  
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.p a {
+  text-decoration: underline;
+}
+
+
+
+
