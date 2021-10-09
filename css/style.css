@@ -51,7 +51,7 @@ body {
 
           
   .jumbotron {
-    background-image: url(/images/groupes.png);
+    background-image: url("../images/groupes.png");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position:center;
@@ -164,18 +164,18 @@ body {
 
 }
 .skyblue {
-	background-image: url(/images/I1.png);
+	background-image: url("../images/I1.png");
   background-repeat: no-repeat;
   background-position: center;
   
 }
 .deepskyblue {
-	background-image: url(/images/I2.png);
+	background-image: url("../images/I2.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .darkerskyblue {
-	background-image: url(/images/I3.png);
+	background-image: url("../images/I3.png");
   background-repeat: no-repeat;
   background-position: center;
   
